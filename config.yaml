@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    assish:
+      email: assish@d-teknoloji.com.tr
+      name: Assish
+      password: '12345' # To be replaced with hashed password
+    dt :
+      email: cagatay.ciftci@d-teknoloji.com.tr
+      name : Dogus Technology
+      password: '12345'
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - cagatay.ciftci@d-teknoloji.com.tr
