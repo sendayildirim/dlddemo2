@@ -58,8 +58,8 @@ with st.sidebar:
     add_vertical_space(10)
     
 
-    choose = option_menu("Dubai Land Department", ["Home", "Assistant", "Fraud & Anomaly Detection"],
-                        icons=["house", "chat-text", "shield-exclamation"],
+    choose = option_menu("Dubai Land Department", ["Home", "Assistant"],
+                        icons=["house", "chat-text"],
                         menu_icon="justify", default_index=0,
                         styles={"container": {"padding": "5!important", "background-color": "#fafafa"},
                                 "icon": {"color": "black", "font-size": "25px"}, 
@@ -71,6 +71,8 @@ with st.sidebar:
     #, "dot"
     #, "Fraud & Anomaly Detection", "Real Estate"
     #, "shield-exclamation", "search"
+    #, "Fraud & Anomaly Detection"
+    #, "shield-exclamation"
     
     add_vertical_space(30)
 
